@@ -1,0 +1,67 @@
+body{
+	background-color: black;
+}
+#container{
+background-color:aqua;
+width: 60%;
+margin: 0 auto;
+height: 80vh;
+margin-top: 20px;
+padding-top: 10px;
+
+}
+h1{
+text-align: center;
+letter-spacing: 3px;
+}
+form{
+background-color:aqua;
+width:60%;
+margin:0 auto;
+margin-top: 40px;
+height: 40vh;
+padding: 20px;
+}
+.input-box{
+	position: relative;
+}
+
+input{
+
+background-color:aqua;
+padding:15px 15px;
+margin: 20px;
+margin-left:0px ; 
+width:90%;
+border-color:transparent ;
+border-bottom: 2px solid;
+transition: 1s ease-in;
+}
+input:focus~label,
+input:valid~label{
+	top:20px;
+	font-size: 10px;
+} 
+ button:hover{ 
+	background-color: transparent;
+	padding: 10px 15px;
+} 
+button:hover{
+	background-color: black;
+	padding:10px 15px; 
+	color:white;
+}
+label{
+	letter-spacing: 3px;
+	position: absolute;
+	transition: 1s ease-in;
+left:5px;
+top:35px;
+}
+
+button{
+width:20%;
+margin-right: 130px;
+background-color: aqua;
+transition: 0.7s ease-in;
+}
